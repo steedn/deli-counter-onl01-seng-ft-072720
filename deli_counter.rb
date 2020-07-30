@@ -23,6 +23,7 @@ def line(array)
     else
     array.each_with_index do |name, index|
       new_array << "#{index + 1}. #{name}"
+      new_array[-2].inject(0, " ")
     end
       new_array.unshift("The line is currently: ")
       puts new_array.join
