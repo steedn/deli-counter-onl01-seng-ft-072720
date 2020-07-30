@@ -10,7 +10,7 @@ def take_a_number(array)
     counter += 1
   end
 array
-  binding.pry
+  # binding.pry
 end
 
 
@@ -18,7 +18,8 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array}"
+    array = take_a_number(katz_deli)
+    array  
   end
 end
 
