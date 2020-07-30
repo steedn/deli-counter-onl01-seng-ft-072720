@@ -10,7 +10,7 @@ def take_a_number(array)
     counter += 1
     binding.pry
   end
-array
+array.join
   # binding.pry
 end
 
