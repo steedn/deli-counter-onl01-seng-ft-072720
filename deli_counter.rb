@@ -25,6 +25,7 @@ def line(array)
       new_array.push("#{index + 1}. #{name}")
     end
       new_array.unshift("The line is currently: ")
+      puts new_array.join
       binding.pry
   end
 end
