@@ -7,6 +7,7 @@ def line
   else
     puts katz_deli
   end
+end
 def take_a_number(num, name)
   array =  []
   array_num = []
