@@ -16,15 +16,16 @@ array.join
 end
 
 
-def line(katz_deli)
-  if katz_deli == []
-    puts "The line is currently empty."
-  else
-    array = take_a_number(katz_deli)
-    array.each do |name|
-      puts name
-      binding.pry
+def line(array)
+    new_array = []
+    if array.empty?
+      puts "The line is currently empty."
+    else
+    array.each_with_index do |name, index|
+      new_array.push("#{index + 1}. #{name}")
     end
+      new_array.unshift("The line is currently: ")
+      binding.pry
   end
 end
 
