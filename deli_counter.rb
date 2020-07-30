@@ -2,13 +2,14 @@ require 'pry'
 
 katz_deli = []
 # binding.pry
-def take_a_number(array)
+def take_a_number(array, names)
   counter = 1
+
   array = katz_deli
   array.each do |name|
     array[counter].inject(0 , counter + ".")
     counter += 1
-    binding.pry
+    # binding.pry
   end
 array.join
   binding.pry
