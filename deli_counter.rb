@@ -1,7 +1,7 @@
 require 'pry'
 
 katz_deli = []
-
+binding.pry
 def take_a_number(array)
   counter = 1
   array = katz_deli
