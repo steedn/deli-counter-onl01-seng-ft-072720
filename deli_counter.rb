@@ -22,6 +22,7 @@ def line(katz_deli)
     array = take_a_number(katz_deli)
     array.each do |name|
       puts name
+    end
   end
 end
 
