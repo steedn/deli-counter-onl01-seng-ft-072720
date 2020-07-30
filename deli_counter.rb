@@ -8,6 +8,7 @@ def take_a_number(array)
   array.each do |name|
     array[counter].inject(0 , counter + ".")
     counter += 1
+    binding.pry
   end
 array
   # binding.pry
