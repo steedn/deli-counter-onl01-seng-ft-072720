@@ -21,9 +21,8 @@ def line(array)
     if array.empty?
       puts "The line is currently empty."
     else
-    array.each_with_index do |name, index|
+    array.each do |name, index|
       new_array << " #{index + 1}. #{name}"
-      new_array.unshift"#{index + 1}. #{name}"
     end
       new_array.unshift("The line is currently: ")
       puts new_array.join
