@@ -22,11 +22,11 @@ def line(array)
       puts "The line is currently empty."
     else
     array.each_with_index do |name, index|
-      new_array.push("#{index + 1}. #{name}")
+      new_array.push(" #{index + 1}. #{name}")
     end
       new_array.unshift("The line is currently: ")
       puts new_array.join
-      binding.pry
+      # binding.pry
   end
 end
 
