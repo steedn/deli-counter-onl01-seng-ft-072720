@@ -1,7 +1,7 @@
 require 'pry'
 
 katz_deli = []
-binding.pry
+# binding.pry
 def take_a_number(array)
   counter = 1
   array = katz_deli
@@ -11,7 +11,7 @@ def take_a_number(array)
     binding.pry
   end
 array.join
-  # binding.pry
+  binding.pry
 end
 
 
@@ -22,6 +22,7 @@ def line(katz_deli)
     array = take_a_number(katz_deli)
     array.each do |name|
       puts name
+      binding.pry
     end
   end
 end
