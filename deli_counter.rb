@@ -20,7 +20,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     array = take_a_number(katz_deli)
-    array
+    array.each do |name|
+      puts name
   end
 end
 
