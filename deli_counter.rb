@@ -5,14 +5,14 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-    puts katz_deli
+    puts "The line is currently: "
   end
 end
 def take_a_number(array)
   counter = 1
   array = katz_deli
   array.each do |name|
-    array[counter].inject(0 , counter)
+    array[counter].inject(0 , counter + ".")
     counter += 1
   end
   array
