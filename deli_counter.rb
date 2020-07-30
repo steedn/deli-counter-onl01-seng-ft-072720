@@ -1,4 +1,5 @@
-require "pry"# Write your code here.
+require "pry"
+
 katz_deli = []
 def take_a_number(num, name)
   array =  []
